@@ -62,4 +62,5 @@ executable         rybuweb
                  , vector
                  , time
                  , http-types
+                 , raw-strings-qq
                  , rybu

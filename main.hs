@@ -2,7 +2,7 @@
 {-# LANGUAGE QuasiQuotes           #-}
 {-# LANGUAGE TemplateHaskell       #-}
 {-# LANGUAGE TypeFamilies          #-}
-import ClassyPrelude
+import ClassyPrelude hiding (Handler)
 import Yesod
 import qualified Data.Text as T
 import Data.Conduit
